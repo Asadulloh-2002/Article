@@ -15,7 +15,7 @@ body {
     background-color: #fff;
     font-family: 'Bebas Neue', 'Arial', cursive;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 700;
     line-height: 16.41px;
     letter-spacing: 2px;
     color: #222;
@@ -67,6 +67,7 @@ img {
 }
 .left__link {
     padding: 12px 24px;
+    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     display: inline-flex;
@@ -99,9 +100,16 @@ img {
 .right-section-title {
     display: flex;
     margin-bottom: 24px;
+    font-weight: 400;
     font-size: 24px;
     line-height: 28.8px;
     color: rgba(34, 34, 34, 1);
+}
+.right-section-title:hover {
+    text-shadow: 0px 0px 0.5px #000;
+}
+.right-section-title:active {
+    text-shadow: 0px 0px 0px #fff;
 }
 .right-section-hr {
     border-top: 1px solid #999;
@@ -124,6 +132,7 @@ img {
 }
 .right-section-item-title-link {
     font-family: 'Bebas Neue', 'Arial', cursive;
+    font-weight: 400;
     font-size: 18px;
     line-height: 21.6px;
     letter-spacing: 2px;
@@ -180,7 +189,8 @@ img {
     margin-top: 23px;
     padding: 12px;
     font-family: 'Roboto Condensed', 'Arial', sans-serif;
-    font-weight: 700;
+    font-weight: 400;
+    font-size: 16px;
     line-height: 16px;
     letter-spacing: 1px;
     color: #fff;
